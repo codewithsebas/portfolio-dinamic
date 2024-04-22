@@ -8,7 +8,7 @@ import Entrepreneur from "./components/Entrepreneur";
 function App() {
   return (
     <main className="relative w-full h-full  flex justify-center items-center bg-zinc-900 backdrop-blur-xl">
-      <div className="w-full min-h-screen max-w-lg flex flex-col gap-8 px-3 py-10 text-white">
+      <div className="w-full min-h-screen max-w-lg flex flex-col gap-8 px-3 py-3 md:py-10 text-white">
         <Header />
         <div>
           <h1 className="text-lg">About</h1>

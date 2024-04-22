@@ -1,3 +1,5 @@
+import { ArrowDownToLine } from "lucide-react";
+
 const Header = () => {
   return (
     <header className="flex justify-between">
@@ -10,7 +12,7 @@ const Header = () => {
           className="rounded-full hover:scale-105 duration-300"
         />
       </div>
-      <div className="w-full ps-6 py-3">
+      <div className="w-full ps-6 py-3 flex flex-col gap-1">
         <h1 className="text-xl">Sebastián Giraldo</h1>
         <p className="opacity-50 text-sm">
           FullStack Developer & UI/UX Entrepreneur at Chatizzí.
@@ -19,9 +21,9 @@ const Header = () => {
           href="..//src/pdf/Developer.pdf"
           target="_blank"
           rel="noopener noreferrer"
-          className="opacity-70 text-sm"
+          className="opacity-70 text-sm flex items-center gap-2"
         >
-          Descargar Currículum
+          Download Currículum <ArrowDownToLine size={16} />
         </a>
       </div>
     </header>
