@@ -9,15 +9,14 @@ const Header = () => {
           alt="Fotografia"
           width={120}
           height={120}
-          className="rounded-full hover:scale-105 duration-300"
+          className="rounded-xl hover:scale-105 duration-300"
         />
       </div>
       <div className="w-full ps-6 py-3 flex flex-col gap-1">
         <h1 className="text-xl">Sebastián Giraldo</h1>
-        <div className="flex gap-1">
-          <p className="text-sm">
-            FullStack Developer & UI/UX Entrepreneur at .
-          </p>
+
+        <p className="text-sm">
+          FullStack Developer & UI/UX Entrepreneur at{" "}
           <a
             href="https://chatizzi.vercel.app/"
             target="_blank"
@@ -26,7 +25,9 @@ const Header = () => {
           >
             Chatizzí
           </a>
-        </div>
+          .
+        </p>
+
         <a
           href="..//src/pdf/Developer.pdf"
           target="_blank"

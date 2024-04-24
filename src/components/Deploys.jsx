@@ -3,7 +3,7 @@ import { ArrowUpRight } from "lucide-react";
 /* eslint-disable react/prop-types */
 const Deploys = ({ deploy }) => {
   return (
-    <div className="flex flex-col bg-zinc-800 min-w-56 bg-zinc-800/20 border border-zinc-800 rounded-md hover:scale-[0.98] hover:bg-zinc-800/50 duration-300">
+    <div className="group flex flex-col bg-zinc-800 min-w-56 bg-zinc-800/20 border border-zinc-800 rounded-xl hover:scale-[0.98] hover:bg-zinc-800/50 duration-300">
       <a
         target="_blank"
         rel="noopener noreferrer"
@@ -13,7 +13,7 @@ const Deploys = ({ deploy }) => {
         <img
           src={deploy.image}
           alt="Image"
-          className="w-full h-full object-cover rounded-t-md hover:brightness-110 duration-300 pointer-events-none"
+          className="w-full h-full object-cover rounded-xl group-hover:scale-[1.03] hover:brightness-110 duration-300 pointer-events-none"
         />
       </a>
       <div className="flex justify-between items-center p-2 px-3">

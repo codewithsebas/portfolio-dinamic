@@ -11,7 +11,7 @@ import {
   FaReact,
 } from "react-icons/fa";
 import { GrMysql } from "react-icons/gr";
-import { RiJavascriptFill } from "react-icons/ri";
+import { RiJavascriptFill, RiSupabaseFill } from "react-icons/ri";
 import { SiPhp, SiTailwindcss } from "react-icons/si";
 import { TbBrandNextjs } from "react-icons/tb";
 
@@ -65,12 +65,17 @@ const Stack = () => {
           </div>
 
           <div className="flex flex-col items-center gap-1">
+            <RiSupabaseFill className="text-2xl text-green-300" />
+            <span className="text-sm">Supabase</span>
+          </div>
+
+          <div className="flex flex-col items-center gap-1">
             <SiPhp className="text-2xl text-blue-300" />
             <span className="text-sm">PHP</span>
           </div>
 
           <div className="flex flex-col items-center gap-1">
-            <FaLaravel className="text-2xl text-blue-300" />
+            <FaLaravel className="text-2xl text-red-500" />
             <span className="text-sm">Laravel</span>
           </div>
 

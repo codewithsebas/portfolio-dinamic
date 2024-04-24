@@ -29,18 +29,18 @@ body {
 @keyframes slide {
 
   0% {
-    margin-left: -550px;
+    margin-left: -580px;
   }
   20% {
-    margin-left: -500px;
+    margin-left: -600px;
   }
 
   40% {
-    margin-left: -300px;
+    margin-left: -350px;
   }
 
   60% {
-    margin-left: -100px;
+    margin-left: -150px;
   }
 
   80% {
