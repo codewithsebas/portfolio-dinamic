@@ -4,6 +4,7 @@
 
 ::-webkit-scrollbar {
     width: 6px;
+    height: 8px;
 }
 
 ::-webkit-scrollbar-track {
@@ -13,4 +14,10 @@
 ::-webkit-scrollbar-thumb {
     background-color: #222227;
     border-radius: 10px;
+}
+
+body {
+    background-image: url("https://victoreke.com/_next/static/media/noise.51a05f55.png");
+    background-size: 200px 200px;
+    background-position: 0 0;
 }

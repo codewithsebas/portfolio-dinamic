@@ -14,9 +14,19 @@ const Header = () => {
       </div>
       <div className="w-full ps-6 py-3 flex flex-col gap-1">
         <h1 className="text-xl">Sebastián Giraldo</h1>
-        <p className="opacity-50 text-sm">
-          FullStack Developer & UI/UX Entrepreneur at Chatizzí.
-        </p>
+        <div className="flex gap-1">
+          <p className="opacity-50 text-sm">
+            FullStack Developer & UI/UX Entrepreneur at .
+          </p>
+          <a
+            href="https://chatizzi.vercel.app/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-sm text-sky-200 opacity-100 hover:underline"
+          >
+            Chatizzí
+          </a>
+        </div>
         <a
           href="..//src/pdf/Developer.pdf"
           target="_blank"

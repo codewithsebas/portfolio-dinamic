@@ -70,11 +70,7 @@ const experience = [
     title: "UX/UI Designer in Open Bootcamp",
     description:
       "During my time at OpenBootcamp, I had a transformative experience where I honed my skills in UX and UI design. Through immersive learning and hands-on projects, I gained valuable insights into designing and enhancing user experiences, enriching my knowledge and proficiency in this dynamic field.",
-    technologie: [
-      "Figma",
-      "HTML ",
-      "CSS ",
-    ],
+    technologie: ["Figma", "HTML ", "CSS "],
   },
 ];
 
@@ -113,4 +109,31 @@ const entrepreneur = [
   },
 ];
 
-export { experience, projects, entrepreneur };
+const deploys = [
+  {
+    title: "Notes App!",
+    description:
+      "My app is an efficient tool for taking and saving notes.",
+    url: "https://todo-list-neon.vercel.app/",
+    image:
+      "https://social-portfolio.vercel.app/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fdovavvnjx%2Fimage%2Fupload%2Fv1682480583%2FImagen_de_WhatsApp_2023-04-25_a_las_22.42.01_ev2jhi.jpg&w=3840&q=75",
+  },
+  {
+    title: "Clone Linktree",
+    description:
+      "My app is an efficient tool for taking and saving notes.",
+    url: "https://project-linktree-clone.vercel.app/",
+    image:
+      "https://social-portfolio.vercel.app/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fdovavvnjx%2Fimage%2Fupload%2Fv1673716764%2FCaptura_de_pantalla_2023-01-14_121548_bbgs0a.png&w=3840&q=75",
+  },
+  {
+    title: "Real State!",
+    description:
+      "Real estate projects: building, buying, selling or renting properties.",
+    url: "https://project-real-state-beige.vercel.app/",
+    image:
+      "https://social-portfolio.vercel.app/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fdovavvnjx%2Fimage%2Fupload%2Fv1673320050%2FCaptura_de_pantalla_2023-01-09_220535_dshabw.png&w=3840&q=75",
+  },
+];
+
+export { experience, projects, entrepreneur, deploys };
