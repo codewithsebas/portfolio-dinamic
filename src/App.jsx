@@ -15,7 +15,7 @@ function App() {
 
         <div>
           <h1 className="text-lg">About</h1>
-          <p className="opacity-70 text-sm">
+          <p className="opacity-80 text-sm font-light">
             As a web developer, I thrive on crafting dynamic and innovative
             products from inception to execution. <br /> My expertise lies in
             creating intuitive user experiences that evolve and enhance based on
@@ -25,6 +25,16 @@ function App() {
         </div>
 
         <Stack />
+
+        <div className="flex flex-col gap-5">
+          <h1 className="text-lg">Best Deploys</h1>
+
+          <div className="flex gap-3 pb-3 overflow-x-auto max-w-full max-h-80 h-full">
+            {deploys.map((deploy, index) => (
+              <Deploys key={index} deploy={deploy} />
+            ))}
+          </div>
+        </div>
 
         <hr className="opacity-5" />
 
@@ -46,15 +56,7 @@ function App() {
           ))}
         </div>
 
-        <div className="flex flex-col gap-5">
-          <h1 className="text-lg">Best Deploys</h1>
-
-          <div className="flex gap-3 pb-3 overflow-x-auto max-w-full max-h-80 h-full">
-            {deploys.map((deploy, index) => (
-              <Deploys key={index} deploy={deploy} />
-            ))}
-          </div>
-        </div>
+       
 
         <hr className="opacity-5" />
 

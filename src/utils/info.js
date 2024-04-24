@@ -2,8 +2,8 @@ const experience = [
   {
     initial: 2023,
     finished: 2024,
-    web: "https://intecomdigital.com/",
-    url: "https://intecomdigital.com/cavifa/",
+    web: "https://chatizzi.vercel.app/",
+    url: "https://chatizzi.vercel.app/",
     logo: "https://res.cloudinary.com/dovavvnjx/image/upload/v1713823873/LOGO_ozsohy.png",
     alt: "Logo Chatizzí",
     bg: "bg-[#6425FE]",
@@ -27,7 +27,7 @@ const experience = [
     logo: "https://creditos.somosziro.com/assets/img-news/logo-ilustration.svg",
     alt: "Logo zíro",
     bg: "bg-[#BBFFBF]",
-    title: "Fullstack Developer Junior in Zíro",
+    title: "Fullstack Developer in Zíro",
     description:
       "During my year at Zíro, I focused on developing interactive solutions that significantly enhanced the user experience and the product's interface. Additionally, I worked on creating special connections for generating WhatsApp templates, thus contributing to the innovation and efficiency of the platform.",
     technologie: [
@@ -62,10 +62,10 @@ const experience = [
   {
     initial: 2023,
     finished: 2024,
-    web: "https://intecomdigital.com/",
-    url: "https://intecomdigital.com/cavifa/",
+    web: "https://www.linkedin.com/school/openbootcamp-escuela/",
+    url: "https://www.linkedin.com/school/openbootcamp-escuela/",
     logo: "https://res.cloudinary.com/dovavvnjx/image/upload/v1713824840/original_mfbgi4.jpg",
-    alt: "Logo Cavifa",
+    alt: "Logo Openbootcamp",
     bg: "bg-[#FFFFFF]",
     title: "UX/UI Designer in Open Bootcamp",
     description:
@@ -111,7 +111,7 @@ const entrepreneur = [
 
 const deploys = [
   {
-    title: "Notes App!",
+    title: "Notes App",
     description:
       "My app is an efficient tool for taking and saving notes.",
     url: "https://todo-list-neon.vercel.app/",

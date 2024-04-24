@@ -15,7 +15,7 @@ const Header = () => {
       <div className="w-full ps-6 py-3 flex flex-col gap-1">
         <h1 className="text-xl">Sebastián Giraldo</h1>
         <div className="flex gap-1">
-          <p className="opacity-50 text-sm">
+          <p className="text-sm">
             FullStack Developer & UI/UX Entrepreneur at .
           </p>
           <a

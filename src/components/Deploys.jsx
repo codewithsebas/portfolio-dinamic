@@ -27,7 +27,7 @@ const Deploys = ({ deploy }) => {
         </a>
       </div>
       <hr className="opacity-10 mx-3" />
-      <p className="p-3 opacity-70 max-h-28">{deploy.description}</p>
+      <p className="p-3 opacity-70 text-sm max-h-28 font-light">{deploy.description}</p>
     </div>
   );
 };

@@ -17,7 +17,7 @@ const Experience = ({ experience }) => {
             height={85}
           />
         </a>
-        <div className="opacity-70">
+        <div className="opacity-70 font-light">
           {experience.initial} -{" "}
           {experience.finished ? experience.finished : "Present"}
         </div>
@@ -30,9 +30,9 @@ const Experience = ({ experience }) => {
           >
             {experience.title} <ArrowUpRight size={16} />
           </a>
-          <p className="opacity-70 text-sm">{experience.description}</p>
+          <p className="opacity-70 text-sm font-light">{experience.description}</p>
         </div>
-        <div className="grid grid-flow-row-dense gap-2 grid-cols-2 md:grid-cols-3 opacity-50 pb-2">
+        <div className="grid grid-flow-row-dense gap-2 grid-cols-2 md:grid-cols-3 opacity-90 pb-2">
           {experience.technologie.map((tech, index) => (
             <span className="font-base w-full" key={index}>
               {tech}

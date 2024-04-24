@@ -2,22 +2,62 @@
 @tailwind components;
 @tailwind utilities;
 
+body {
+  font-family: "Manrope Variable", sans-serif;
+}
+
 ::-webkit-scrollbar {
-    width: 6px;
-    height: 8px;
+  width: 6px;
+  height: 8px;
 }
 
 ::-webkit-scrollbar-track {
-    background-color: #18181b;
+  background-color: #18181b;
 }
 
 ::-webkit-scrollbar-thumb {
-    background-color: #222227;
-    border-radius: 10px;
+  background-color: #222227;
+  border-radius: 10px;
 }
 
 body {
-    background-image: url("https://victoreke.com/_next/static/media/noise.51a05f55.png");
-    background-size: 200px 200px;
-    background-position: 0 0;
+  background-image: url("https://victoreke.com/_next/static/media/noise.51a05f55.png");
+  background-size: 200px 200px;
+  background-position: 0 0;
+}
+
+@keyframes slide {
+
+  0% {
+    margin-left: -550px;
+  }
+  20% {
+    margin-left: -500px;
+  }
+
+  40% {
+    margin-left: -300px;
+  }
+
+  60% {
+    margin-left: -100px;
+  }
+
+  80% {
+    margin-left: 50px;
+  }
+
+  100% {
+    margin-left: 0px;
+  }
+}
+
+.stack {
+  display: flex;
+  gap: 25px;
+  animation: slide infinite 10s alternate;
+}
+
+.stack:hover {
+  animation-play-state: paused;
 }
