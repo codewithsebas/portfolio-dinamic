@@ -51,8 +51,8 @@ function App() {
         <div className="flex flex-col gap-5">
           <h1 className="text-lg">News Projects</h1>
 
-          {projects.map((experience, index) => (
-            <Projects key={index} experience={experience} />
+          {projects.map((project, index) => (
+            <Projects key={index} project={project} />
           ))}
         </div>
 
@@ -63,8 +63,8 @@ function App() {
         <div className="flex flex-col gap-5">
           <h1 className="text-lg">Entrepreneur</h1>
 
-          {entrepreneur.map((experience, index) => (
-            <Entrepreneur key={index} experience={experience} />
+          {entrepreneur.map((entrepreneur, index) => (
+            <Entrepreneur key={index} entrepreneur={entrepreneur} />
           ))}
         </div>
 
