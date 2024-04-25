@@ -29,9 +29,11 @@ const Header = () => {
         </p>
 
         <a
-          href="..//src/pdf/Developer.pdf"
+          aria-label="Curriculum_Sebastian_Giraldo"
+          rel="noreferrer"
           target="_blank"
-          rel="noopener noreferrer"
+          download="Developer.pdf"
+          href="/download/Developer.pdf"
           className="opacity-70 text-sm flex items-center gap-2"
         >
           Download Currículum <ArrowDownToLine size={16} />

@@ -9,7 +9,7 @@ const experience = [
     bg: "bg-[#6425FE]",
     title: "CEO & Fullstack Developer in Chatizzí ",
     description:
-      "During my time at Innova Ingeniería Integral, I held a leadership position while also serving as a UX/UI designer and full-stack developer. I led a team in the development of a platform designed to assist professionals in managing individuals with disabilities.",
+      "I am currently developing Chatizzi, a platform that merges Human Resources, Marketing and Customer Service to connect companies and customers efficiently. This personal project reflects my ability to innovate at the intersection of different business areas and my commitment to continuously improve the user experience.",
     technologie: [
       "Next ",
       "Socket.io",
@@ -156,7 +156,15 @@ const entrepreneur = [
     title: "Chatizzí App",
     description:
       "Streamline your business operations with our all-in-one web app, seamlessly integrating HR, Marketing, and Customer Service functionalities.",
-    technologie: ["Next ", "Socket.io ", "Zustand ", "Node", "Express", "Supabase", "AWS"],
+    technologie: [
+      "Next ",
+      "Socket.io ",
+      "Zustand ",
+      "Node",
+      "Express",
+      "Supabase",
+      "AWS",
+    ],
   },
 ];
 
