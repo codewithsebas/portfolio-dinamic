@@ -142,7 +142,7 @@ const entrepreneur = [
   {
     initial: 2023,
     logo: "https://res.cloudinary.com/dovavvnjx/image/upload/v1713823873/LOGO_ozsohy.png",
-    link: "/",
+    link: "https://chatizzi.vercel.app/",
     title: "Chatizzí Web",
     description:
       "An all-encompassing platform that bridges businesses and customers, seamlessly integrating Human Resources, Marketing, and Customer Service.",
@@ -152,7 +152,7 @@ const entrepreneur = [
   {
     initial: 2023,
     logo: "https://res.cloudinary.com/dovavvnjx/image/upload/v1714000135/LOGO_1_ewwfkz.png",
-    link: "/",
+    link: "https://chatizzi.vercel.app/",
     title: "Chatizzí App",
     description:
       "Streamline your business operations with our all-in-one web app, seamlessly integrating HR, Marketing, and Customer Service functionalities.",
