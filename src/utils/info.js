@@ -80,7 +80,7 @@ const projects = [
     finished: 2023,
     web: "https://todo-list-neon.vercel.app/",
     url: "https://todo-list-neon.vercel.app/",
-    logo: "https://social-portfolio.vercel.app/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fdovavvnjx%2Fimage%2Fupload%2Fv1682480583%2FImagen_de_WhatsApp_2023-04-25_a_las_22.42.01_ev2jhi.jpg&w=3840&q=75",
+    logo: "https://res.cloudinary.com/dovavvnjx/image/upload/v1682481927/Imagen_de_WhatsApp_2023-04-25_a_las_23.02.02_zyppp9.jpg",
     alt: "Logo App Notes",
     bg: "bg-[#333333]",
     title: "App notes",
@@ -100,7 +100,7 @@ const projects = [
     finished: 2023,
     web: "https://project-linktree-clone.vercel.app/",
     url: "https://project-linktree-clone.vercel.app/",
-    logo: "https://social-portfolio.vercel.app/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fdovavvnjx%2Fimage%2Fupload%2Fv1673716764%2FCaptura_de_pantalla_2023-01-14_121548_bbgs0a.png&w=3840&q=75",
+    logo: "https://res.cloudinary.com/dovavvnjx/image/upload/v1673716764/Captura_de_pantalla_2023-01-14_121548_bbgs0a.png",
     alt: "Logo Linktree",
     bg: "bg-[#333333]",
     title: "Clone Linktree",
@@ -174,14 +174,14 @@ const deploys = [
     description: "My app is an efficient tool for taking and saving notes.",
     url: "https://todo-list-neon.vercel.app/",
     image:
-      "https://social-portfolio.vercel.app/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fdovavvnjx%2Fimage%2Fupload%2Fv1682480583%2FImagen_de_WhatsApp_2023-04-25_a_las_22.42.01_ev2jhi.jpg&w=3840&q=75",
+      "https://res.cloudinary.com/dovavvnjx/image/upload/v1682481927/Imagen_de_WhatsApp_2023-04-25_a_las_23.02.02_zyppp9.jpg",
   },
   {
     title: "Clone Linktree",
     description: "My app is an efficient tool for taking and saving notes.",
     url: "https://project-linktree-clone.vercel.app/",
     image:
-      "https://social-portfolio.vercel.app/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fdovavvnjx%2Fimage%2Fupload%2Fv1673716764%2FCaptura_de_pantalla_2023-01-14_121548_bbgs0a.png&w=3840&q=75",
+      "https://res.cloudinary.com/dovavvnjx/image/upload/v1673716764/Captura_de_pantalla_2023-01-14_121548_bbgs0a.png",
   },
   {
     title: "Real State!",
@@ -189,7 +189,7 @@ const deploys = [
       "Real estate projects: building, buying, selling or renting properties.",
     url: "https://project-real-state-beige.vercel.app/",
     image:
-      "https://social-portfolio.vercel.app/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fdovavvnjx%2Fimage%2Fupload%2Fv1673320050%2FCaptura_de_pantalla_2023-01-09_220535_dshabw.png&w=3840&q=75",
+      "https://res.cloudinary.com/dovavvnjx/image/upload/v1673320050/Captura_de_pantalla_2023-01-09_220535_dshabw.png",
   },
 ];
 
