@@ -118,8 +118,8 @@ const projects = [
   {
     initial: 2022,
     finished: 2023,
-    // web: "https://project-linktree-clone.vercel.app/",
-    // url: "https://project-linktree-clone.vercel.app/",
+    web: "https://poker-scrum.vercel.app/",
+    url: "https://poker-scrum.vercel.app/",
     logo: "https://cdn.dribbble.com/users/2049797/screenshots/15927590/media/2a8059e8aeb6fdf5538a6c0f62ed2a85.png",
     alt: "Logo Poker Scrum",
     bg: "bg-[#333333]",
