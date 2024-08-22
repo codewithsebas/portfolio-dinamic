@@ -10,7 +10,7 @@ import Deploys from "./components/Deploys";
 function App() {
   return (
     <main className="relative w-full h-full  flex justify-center items-center bg-[#18181b]">
-      <div className="w-full min-h-screen max-w-lg flex flex-col gap-8 px-3 py-3 md:py-10 text-white">
+      <div className="w-full min-h-screen max-w-2xl flex flex-col gap-8 px-3 py-3 md:py-10 text-white">
         <Header />
 
         <div>

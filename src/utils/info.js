@@ -2,6 +2,24 @@ const experience = [
   {
     initial: 2023,
     finished: 2024,
+    web: "https://clinicaespecialistasdelpoblado.com/",
+    url: "https://clinicaespecialistasdelpoblado.com/",
+    logo: "https://res.cloudinary.com/dovavvnjx/image/upload/v1724358311/LOGO-definitivo-ESPECIALISTAS-01-1-1_wd4tsv.png",
+    alt: "Logo Clinica especialistas del poblado",
+    bg: "bg-[#ffffff]",
+    title: "Web UI Developer",
+    description:
+      "I developed my knowledge and skills in the development of a Landing Page for the Agency and internal development of a Travel, Hotel, Transportation and Surgery platform in all its approach and web design.",
+    technologie: [
+      "React",
+      "CSS",
+      "JavaScript",
+      "Figma"
+    ],
+  },
+  {
+    initial: 2023,
+    finished: 2024,
     web: "https://chatizzi.vercel.app/",
     url: "https://chatizzi.vercel.app/",
     logo: "https://res.cloudinary.com/dovavvnjx/image/upload/v1713823873/LOGO_ozsohy.png",
@@ -78,6 +96,26 @@ const projects = [
   {
     initial: 2022,
     finished: 2023,
+    web: "https://task-manager-iota-seven.vercel.app/",
+    url: "https://task-manager-iota-seven.vercel.app/",
+    logo: "https://res.cloudinary.com/dovavvnjx/image/upload/v1713823873/LOGO_ozsohy.png",
+    alt: "Logo App Notes Login and Register",
+    bg: "bg-[#333333]",
+    title: "Task Manager",
+    description:
+      "The application I have created is a practical and functional note-taking tool that allows users to easily create and save notes. With this application, users can add, edit, delete and mark notes as completed online in an intuitive way. In addition, users can login or register to have their own tasks.",
+    technologie: [
+      "React",
+      "Redux",
+      "Nextjs",
+      "React Icons",
+      "Tailwindcss",
+      "Firebase",
+    ],
+  },
+  {
+    initial: 2022,
+    finished: 2023,
     web: "https://todo-list-neon.vercel.app/",
     url: "https://todo-list-neon.vercel.app/",
     logo: "https://res.cloudinary.com/dovavvnjx/image/upload/v1682481927/Imagen_de_WhatsApp_2023-04-25_a_las_23.02.02_zyppp9.jpg",
@@ -90,7 +128,7 @@ const projects = [
       "React",
       "Redux",
       "React Icons",
-      "Taiilwindcss",
+      "Tailwindcss",
       "LocalStorage",
     ],
   },
@@ -170,9 +208,26 @@ const entrepreneur = [
 
 const deploys = [
   {
+    title: "Task Manager",
+    description: "Task App with Login and Registration",
+    url: "https://task-manager-iota-seven.vercel.app/",
+    urlRepo: "https://github.com/codewithsebas/task-manager",
+    image:
+      "https://res.cloudinary.com/dovavvnjx/image/upload/v1724357946/Captura_de_pantalla_2024-08-22_151851_uqxsfe.png",
+  },
+  {
+    title: "Landing Page",
+    description: "Design and develop this web site to attract customers to learn English better",
+    url: "https://linguo-boost-web.vercel.app/",
+    urlRepo: "https://github.com/codewithsebas/linguo-boost-web",
+    image:
+      "https://res.cloudinary.com/dovavvnjx/image/upload/v1724356757/Captura_de_pantalla_2024-08-22_145854_ocdlil.png",
+  },
+  {
     title: "Notes App",
     description: "My app is an efficient tool for taking and saving notes.",
     url: "https://todo-list-neon.vercel.app/",
+    urlRepo: "https://github.com/codewithsebas/Todo-List",
     image:
       "https://res.cloudinary.com/dovavvnjx/image/upload/v1682481927/Imagen_de_WhatsApp_2023-04-25_a_las_23.02.02_zyppp9.jpg",
   },
@@ -180,6 +235,7 @@ const deploys = [
     title: "Clone Linktree",
     description: "My app is an efficient tool for taking and saving notes.",
     url: "https://project-linktree-clone.vercel.app/",
+    urlRepo: "https://github.com/codewithsebas/Project-Linktree-Clone",
     image:
       "https://res.cloudinary.com/dovavvnjx/image/upload/v1673716764/Captura_de_pantalla_2023-01-14_121548_bbgs0a.png",
   },
@@ -188,6 +244,7 @@ const deploys = [
     description:
       "Real estate projects: building, buying, selling or renting properties.",
     url: "https://project-real-state-beige.vercel.app/",
+    urlRepo: "https://github.com/codewithsebas/Project-Real-State",
     image:
       "https://res.cloudinary.com/dovavvnjx/image/upload/v1673320050/Captura_de_pantalla_2023-01-09_220535_dshabw.png",
   },

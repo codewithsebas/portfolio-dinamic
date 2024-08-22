@@ -1,4 +1,4 @@
-import { ArrowUpRight } from "lucide-react";
+import { ArrowUpRight, Github } from "lucide-react";
 
 /* eslint-disable react/prop-types */
 const Deploys = ({ deploy }) => {
@@ -13,11 +13,19 @@ const Deploys = ({ deploy }) => {
         <img
           src={deploy.image}
           alt="Image"
-          className="w-full h-full object-cover rounded-xl group-hover:scale-[1.03] hover:brightness-110 duration-300 pointer-events-none"
+          className="w-full h-full object-cover rounded-tl-lg rounded-t-lg hover:brightness-110 duration-300 pointer-events-none"
         />
       </a>
       <div className="flex justify-between items-center p-2 px-3">
         <h1 className="text-lg">{deploy.title}</h1>
+        <div className="flex items-center gap-2">
+        <a
+          target="_blank"
+          rel="noopener noreferrer"
+          href={deploy.urlRepo}
+        >
+          <Github size={20} />
+        </a>
         <a
           target="_blank"
           rel="noopener noreferrer"
@@ -25,6 +33,7 @@ const Deploys = ({ deploy }) => {
         >
           <ArrowUpRight size={20} />
         </a>
+        </div>
       </div>
       <hr className="opacity-10 mx-3" />
       <p className="p-3 opacity-70 text-sm max-h-28 font-light">{deploy.description}</p>
