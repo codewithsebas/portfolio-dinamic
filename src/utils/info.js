@@ -1,115 +1,117 @@
 const experience = [
   {
-    initial: 2023,
-    finished: 2024,
+    initial: 2024,
+    finished: "Actualmente",
     web: "https://clinicaespecialistasdelpoblado.com/",
     url: "https://clinicaespecialistasdelpoblado.com/",
     logo: "https://res.cloudinary.com/dovavvnjx/image/upload/v1724358311/LOGO-definitivo-ESPECIALISTAS-01-1-1_wd4tsv.png",
-    alt: "Logo Clinica especialistas del poblado",
+    alt: "Logo Clínica Especialistas del Poblado",
     bg: "bg-[#ffffff]",
-    title: "Web UI Developer",
+    title: "Desarrollador Web UI",
     description:
-      "I developed my knowledge and skills in the development of a Landing Page for the Agency and internal development of a Travel, Hotel, Transportation and Surgery platform in all its approach and web design.",
-    technologie: [
-      "React",
-      "CSS",
-      "JavaScript",
-      "Figma"
-    ],
+      "Desarrollé y perfeccioné mis habilidades en el diseño y desarrollo de una Landing Page para una clínica, además de participar en la creación interna de una plataforma completa para la gestión de viajes, hoteles, transporte y cirugías. Esta experiencia me permitió combinar diseño y desarrollo en un entorno profesional exigente. Ademas de integrar UI por medio de información de CRMS.",
+    technologie: ["React", "Nextjs", "HTML", "CSS", "JavaScript", "Figma"],
   },
   {
-    initial: 2023,
-    finished: 2024,
-    web: "https://chatizzi.vercel.app/",
-    url: "https://chatizzi.vercel.app/",
+    initial: 2024,
+    finished: "Actualmente",
+    web: "https://www.linkedin.com/company/beautizzi",
+    url: "https://www.linkedin.com/company/beautizzi",
     logo: "https://res.cloudinary.com/dovavvnjx/image/upload/v1713823873/LOGO_ozsohy.png",
-    alt: "Logo Chatizzí",
+    alt: "Logo Beautizzí",
     bg: "bg-[#6425FE]",
-    title: "CEO & Fullstack Developer in Chatizzí ",
+    title: "Desarrollador Fullstack & UI/UX Designer en Beautizzí",
     description:
-      "I am currently developing Chatizzi, a platform that merges Human Resources, Marketing and Customer Service to connect companies and customers efficiently. This personal project reflects my ability to innovate at the intersection of different business areas and my commitment to continuously improve the user experience.",
+      "Actualmente, en mi tiempo libre, estoy desarrollando Beautizzí, una plataforma enfocada en aplicaciones móviles utilizando React Native. Beautizzí conecta negocios y clientes dentro del sector de la belleza. Este proyecto personal refleja mi capacidad para innovar en la intersección de diferentes áreas de negocio, demostrando mi compromiso con la mejora continua de la experiencia del usuario.",
     technologie: [
-      "Next ",
+      "Next.js",
       "Socket.io",
-      "Tailwindcss ",
-      "Node.js ",
-      "Express.js ",
-      "Supabase ",
+      "TailwindCSS",
+      "Node.js",
+      "Express.js",
+      "MySQL",
+      "React Native"
     ],
   },
   {
     initial: 2023,
     finished: 2024,
-    web: "https://somosziro.com/",
+    web: "https://creditos.somosziro.com/iniciar-sesion",
     url: "https://creditos.somosziro.com/iniciar-sesion",
     logo: "https://creditos.somosziro.com/assets/img-news/logo-ilustration.svg",
-    alt: "Logo zíro",
+    alt: "Logo Zíro",
     bg: "bg-[#BBFFBF]",
-    title: "Fullstack Developer in Zíro",
+    title: "Desarrollador Fullstack en Zíro",
     description:
-      "During my year at Zíro, I focused on developing interactive solutions that significantly enhanced the user experience and the product's interface. Additionally, I worked on creating special connections for generating WhatsApp templates, thus contributing to the innovation and efficiency of the platform.",
-    technologie: [
-      "Angular 16 ",
-      "Bootstrap ",
-      "PHP ",
-      "Laravel ",
-      "MySQL ",
-      "AWS ",
-    ],
+      "En Zíro, me especialicé en el desarrollo de soluciones interactivas que optimizaron significativamente la experiencia del usuario y mejoraron la interfaz del producto. Además, implementé funcionalidades avanzadas en el CRM, personalizando la plataforma para ofrecer una experiencia más fluida y eficiente. También participé en el diseño web, utilizando herramientas como Figma e Illustrator para crear interfaces visualmente atractivas y funcionales. Adicionalmente, contribuí a la creación de conexiones automatizadas para la generación de plantillas de WhatsApp, impulsando la innovación y eficiencia de la plataforma.",
+    technologie: ["Angular", "Bootstrap", "PHP", "Laravel", "MySQL", "AWS"],
   },
   {
-    initial: 2023,
-    finished: 2024,
+    initial: 2022,
+    finished: 2023,
     web: "https://intecomdigital.com/",
     url: "https://intecomdigital.com/cavifa/",
     logo: "https://intecomdigital.com/cavifa//pages/img/image1.png",
     alt: "Logo Cavifa",
     bg: "bg-[#FFFFFF]",
-    title: "Fullstack Developer in Innova Ingenieria I.",
+    title: "Desarrollador Fullstack en Innova Ingeniería Integral.",
     description:
-      "During my time at Innova Ingeniería Integral, I held a leadership position while also serving as a UX/UI designer and full-stack developer. I led a team in the development of a platform designed to assist professionals in managing individuals with disabilities.",
-    technologie: [
-      "HTML ",
-      "CSS ",
-      "JavaScript ",
-      "Bootstrap ",
-      "PHP ",
-      "MySQL ",
-    ],
+      "En Innova Ingeniería Integral, lideré el desarrollo de una plataforma para ayudar a profesionales a gestionar personas con discapacidad. Además, trabajé como diseñador UX/UI y desarrollador fullstack, lo que me permitió asumir un rol de liderazgo mientras diseñaba y desarrollaba soluciones complejas para mejorar la gestión y atención en este sector de la Salud.",
+    technologie: ["HTML", "CSS", "JavaScript", "Bootstrap", "PHP", "MySQL"],
   },
   {
-    initial: 2023,
-    finished: 2024,
+    initial: 2021,
+    finished: 2022,
     web: "https://www.linkedin.com/school/openbootcamp-escuela/",
     url: "https://www.linkedin.com/school/openbootcamp-escuela/",
     logo: "https://res.cloudinary.com/dovavvnjx/image/upload/v1713824840/original_mfbgi4.jpg",
-    alt: "Logo Openbootcamp",
+    alt: "Logo OpenBootcamp",
     bg: "bg-[#FFFFFF]",
-    title: "UX/UI Designer in Open Bootcamp",
+    title: "Diseñador UX/UI en OpenBootcamp",
     description:
-      "During my time at OpenBootcamp, I had a transformative experience where I honed my skills in UX and UI design. Through immersive learning and hands-on projects, I gained valuable insights into designing and enhancing user experiences, enriching my knowledge and proficiency in this dynamic field.",
-    technologie: ["Figma", "HTML ", "CSS "],
+      "Mi paso por OpenBootcamp fue una experiencia transformadora donde perfeccioné mis habilidades en diseño UX y UI. A través de proyectos prácticos y aprendizaje inmersivo, adquirí valiosos conocimientos sobre cómo diseñar y mejorar experiencias de usuario, fortaleciendo mis capacidades en este campo dinámico.",
+    technologie: ["Figma", "HTML", "CSS"],
   },
 ];
 
+
 const projects = [
+  {
+    initial: 2022,
+    finished: 2023,
+    web: "https://linguo-boost-web.vercel.app/",
+    url: "https://linguo-boost-web.vercel.app/",
+    logo: "https://linguo-boost-web.vercel.app/_next/static/media/logo.fdae0e84.svg",
+    alt: "Logo Linguoboost",
+    bg: "",
+    title: "Linguo Boost",
+    description:
+      "En Linguo Boost, además de la creación de la landing page, se trabajó en el diseño visual y se adaptó todo el desarrollo para garantizar una experiencia atractiva y funcional. El enfoque estuvo en optimizar tanto el diseño como la usabilidad, asegurando que el sitio fuera intuitivo y adaptado a las necesidades del público objetivo.",
+    technologie: [
+      "React",
+      "Nextjs",
+      "React Icons",
+      "Tailwindcss",
+      "Figma"
+    ],
+  },
   {
     initial: 2022,
     finished: 2023,
     web: "https://task-manager-iota-seven.vercel.app/",
     url: "https://task-manager-iota-seven.vercel.app/",
     logo: "https://res.cloudinary.com/dovavvnjx/image/upload/v1713823873/LOGO_ozsohy.png",
-    alt: "Logo App Notes Login and Register",
+    alt: "Logo de la App Task Manager",
     bg: "bg-[#333333]",
     title: "Task Manager",
     description:
-      "The application I have created is a practical and functional note-taking tool that allows users to easily create and save notes. With this application, users can add, edit, delete and mark notes as completed online in an intuitive way. In addition, users can login or register to have their own tasks.",
+      "Esta aplicación es una herramienta práctica y funcional para gestionar tareas, que permite a los usuarios crear, editar, eliminar y marcar tareas como completadas de manera intuitiva. Los usuarios pueden registrarse e iniciar sesión para gestionar sus propias tareas de forma personalizada.",
     technologie: [
       "React",
       "Redux",
-      "Nextjs",
+      "Next.js",
       "React Icons",
-      "Tailwindcss",
+      "TailwindCSS",
       "Firebase",
     ],
   },
@@ -119,135 +121,84 @@ const projects = [
     web: "https://todo-list-neon.vercel.app/",
     url: "https://todo-list-neon.vercel.app/",
     logo: "https://res.cloudinary.com/dovavvnjx/image/upload/v1682481927/Imagen_de_WhatsApp_2023-04-25_a_las_23.02.02_zyppp9.jpg",
-    alt: "Logo App Notes",
+    alt: "Logo de la App Notas",
     bg: "bg-[#333333]",
-    title: "App notes",
+    title: "App de Notas",
     description:
-      "The application that I have created is a practical and functional note-taking tool that allows users to create and save notes easily. With this application, users can intuitively add, edit, delete, and mark notes as completed online.",
+      "Desarrollé una aplicación de notas que permite a los usuarios crear, editar, eliminar y marcar notas como completadas de manera sencilla e intuitiva. La aplicación está optimizada para un uso rápido y eficiente, con almacenamiento local para gestionar las notas.",
     technologie: [
       "React",
       "Redux",
       "React Icons",
-      "Tailwindcss",
+      "TailwindCSS",
       "LocalStorage",
     ],
   },
-
   {
     initial: 2022,
     finished: 2023,
     web: "https://project-linktree-clone.vercel.app/",
     url: "https://project-linktree-clone.vercel.app/",
     logo: "https://res.cloudinary.com/dovavvnjx/image/upload/v1673716764/Captura_de_pantalla_2023-01-14_121548_bbgs0a.png",
-    alt: "Logo Linktree",
+    alt: "Logo del Clone Linktree",
     bg: "bg-[#333333]",
     title: "Clone Linktree",
     description:
-      "I developed a Linktree clone just for the frontend, allowing users to customize and manage their social links easily. I used HTML, CSS and JavaScript (React) for the interface, deploying it on platforms such as Vercel. It received initial positive feedback, with plans to add more features in future releases.",
+      "Desarrollé un clon de Linktree enfocado en el frontend, permitiendo a los usuarios personalizar y gestionar enlaces de redes sociales fácilmente. Utilicé HTML, CSS y JavaScript (React) para la interfaz, y la aplicación fue desplegada en Vercel. Recibió comentarios positivos en su versión inicial, con planes para futuras mejoras.",
     technologie: [
       "React",
       "Redux",
       "React Icons",
-      "Taiilwindcss",
+      "TailwindCSS",
       "LocalStorage",
-    ],
-  },
-
-  {
-    initial: 2022,
-    finished: 2023,
-    web: "https://poker-scrum.vercel.app/",
-    url: "https://poker-scrum.vercel.app/",
-    logo: "https://cdn.dribbble.com/users/2049797/screenshots/15927590/media/2a8059e8aeb6fdf5538a6c0f62ed2a85.png",
-    alt: "Logo Poker Scrum",
-    bg: "bg-[#333333]",
-    title: "Poker Scrum",
-    description:
-      "I developed a Scrum Poker tool for agile teams. It allows remote and efficient estimation sessions, with an intuitive interface and customization options. I used HTML, CSS, JavaScript (React) for the frontend, and Node.js with Express for the backend. Received positive initial feedback, with plans to add integrations and data analytics in future releases.",
-    technologie: [
-      "Next",
-
-      "React Icons",
-      "Taiilwindcss",
-      "Nodejs",
-      "Socket.io",
-      "Supabase",
-    ],
-  },
-];
-
-const entrepreneur = [
-  {
-    initial: 2023,
-    logo: "https://res.cloudinary.com/dovavvnjx/image/upload/v1713823873/LOGO_ozsohy.png",
-    link: "https://chatizzi.vercel.app/",
-    title: "Chatizzí Web",
-    description:
-      "An all-encompassing platform that bridges businesses and customers, seamlessly integrating Human Resources, Marketing, and Customer Service.",
-    technologie: ["Next ", "API ", "Tailwindcss ", "Lucide ", "AWS"],
-  },
-
-  {
-    initial: 2023,
-    logo: "https://res.cloudinary.com/dovavvnjx/image/upload/v1714000135/LOGO_1_ewwfkz.png",
-    link: "https://chatizzi.vercel.app/",
-    title: "Chatizzí App",
-    description:
-      "Streamline your business operations with our all-in-one web app, seamlessly integrating HR, Marketing, and Customer Service functionalities.",
-    technologie: [
-      "Next ",
-      "Socket.io ",
-      "Zustand ",
-      "Node",
-      "Express",
-      "Supabase",
-      "AWS",
     ],
   },
 ];
 
 const deploys = [
   {
-    title: "Task Manager",
-    description: "Task App with Login and Registration",
+    title: "Perfil clone",
+    description: "Clone de un perfil de Facebook, con responsive",
+    url: "https://facebook-app-three.vercel.app/",
+    urlRepo: "https://github.com/codewithsebas/Facebook-App.git",
+    image: "https://res.cloudinary.com/dovavvnjx/image/upload/v1676183351/f_xfboge.png",
+  },
+  {
+    title: "Gestor de Tareas",
+    description: "Aplicación de tareas con inicio de sesión y registro de usuarios.",
     url: "https://task-manager-iota-seven.vercel.app/",
     urlRepo: "https://github.com/codewithsebas/task-manager",
-    image:
-      "https://res.cloudinary.com/dovavvnjx/image/upload/v1724357946/Captura_de_pantalla_2024-08-22_151851_uqxsfe.png",
+    image: "https://res.cloudinary.com/dovavvnjx/image/upload/v1724357946/Captura_de_pantalla_2024-08-22_151851_uqxsfe.png",
   },
   {
-    title: "Landing Page",
-    description: "Design and develop this web site to attract customers to learn English better",
+    title: "Langing",
+    description: "Diseño y desarrollo de esta página web para atraer clientes.",
     url: "https://linguo-boost-web.vercel.app/",
     urlRepo: "https://github.com/codewithsebas/linguo-boost-web",
-    image:
-      "https://res.cloudinary.com/dovavvnjx/image/upload/v1724356757/Captura_de_pantalla_2024-08-22_145854_ocdlil.png",
+    image: "https://res.cloudinary.com/dovavvnjx/image/upload/v1724356757/Captura_de_pantalla_2024-08-22_145854_ocdlil.png",
   },
   {
-    title: "Notes App",
-    description: "My app is an efficient tool for taking and saving notes.",
+    title: "App de Notas",
+    description: "Una herramienta eficiente para tomar y guardar notas.",
     url: "https://todo-list-neon.vercel.app/",
     urlRepo: "https://github.com/codewithsebas/Todo-List",
-    image:
-      "https://res.cloudinary.com/dovavvnjx/image/upload/v1682481927/Imagen_de_WhatsApp_2023-04-25_a_las_23.02.02_zyppp9.jpg",
+    image: "https://res.cloudinary.com/dovavvnjx/image/upload/v1682481927/Imagen_de_WhatsApp_2023-04-25_a_las_23.02.02_zyppp9.jpg",
   },
   {
-    title: "Clone Linktree",
-    description: "My app is an efficient tool for taking and saving notes.",
+    title: "Clon de Linktree",
+    description: "Una aplicación para gestionar y personalizar tus enlaces sociales de forma sencilla.",
     url: "https://project-linktree-clone.vercel.app/",
     urlRepo: "https://github.com/codewithsebas/Project-Linktree-Clone",
-    image:
-      "https://res.cloudinary.com/dovavvnjx/image/upload/v1673716764/Captura_de_pantalla_2023-01-14_121548_bbgs0a.png",
+    image: "https://res.cloudinary.com/dovavvnjx/image/upload/v1673716764/Captura_de_pantalla_2023-01-14_121548_bbgs0a.png",
   },
   {
-    title: "Real State!",
-    description:
-      "Real estate projects: building, buying, selling or renting properties.",
+    title: "Bienes Raíces",
+    description: "Proyectos de bienes raíces: construcción, compra, venta o alquiler de propiedades.",
     url: "https://project-real-state-beige.vercel.app/",
     urlRepo: "https://github.com/codewithsebas/Project-Real-State",
-    image:
-      "https://res.cloudinary.com/dovavvnjx/image/upload/v1673320050/Captura_de_pantalla_2023-01-09_220535_dshabw.png",
+    image: "https://res.cloudinary.com/dovavvnjx/image/upload/v1673320050/Captura_de_pantalla_2023-01-09_220535_dshabw.png",
   },
 ];
 
-export { experience, projects, entrepreneur, deploys };
+
+export { experience, projects, deploys };

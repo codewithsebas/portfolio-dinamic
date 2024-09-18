@@ -18,7 +18,7 @@ import { TbBrandNextjs } from "react-icons/tb";
 const Stack = () => {
   return (
     <div className="flex flex-col gap-4">
-      <h1 className="text-lg mb-2">Stack</h1>
+      <h1 className="text-lg mb-2">Tecnologias</h1>
       
       <div className="relative overflow-hidden">
         <div className="absolute z-30 left-0 top-0 w-28 h-14 bg-gradient-to-r from-[#18181b] to-transparent"></div>
