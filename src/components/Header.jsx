@@ -2,7 +2,7 @@ import { ArrowDownToLine } from "lucide-react";
 
 const Header = () => {
   return (
-    <header className="flex justify-between">
+    <header className="flex justify-between flex-col items-start sm:flex-row">
       <div className="flex justify-center items-center">
         <img
           src="https://res.cloudinary.com/dovavvnjx/image/upload/v1713732223/me_pr8bas.jpg"
@@ -12,7 +12,7 @@ const Header = () => {
           className="rounded-xl duration-300 h-40 w-60 object-cover"
         />
       </div>
-      <div className="w-full ps-6 py-3 flex flex-col justify-between gap-1">
+      <div className="w-full sm:ps-6  py-3 flex flex-col justify-between gap-1">
         <div>
           <h1 className="text-2xl font-bold">Sebastián Giraldo</h1>
 
