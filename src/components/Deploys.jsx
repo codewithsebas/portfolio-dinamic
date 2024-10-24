@@ -3,12 +3,12 @@ import { ArrowUpRight, Github } from "lucide-react";
 /* eslint-disable react/prop-types */
 const Deploys = ({ deploy }) => {
   return (
-    <div className="group flex flex-col bg-zinc-800 min-w-56 bg-zinc-800/20 border border-zinc-800 rounded-xl hover:scale-[0.98] hover:bg-zinc-800/50 duration-300">
+    <div className="group flex flex-col h-96 bg-zinc-800 w-full bg-zinc-800/20 border border-zinc-800 rounded-xl hover:scale-[0.98] hover:bg-zinc-800/50 duration-300">
       <a
         target="_blank"
         rel="noopener noreferrer"
         href={deploy.url}
-        className="w-full h-40"
+        className="w-full h-60"
       >
         <img
           src={deploy.image}

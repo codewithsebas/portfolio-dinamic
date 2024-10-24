@@ -1,15 +1,14 @@
 import { ArrowUpRight, Github, Linkedin } from "lucide-react";
 import Header from "./components/Header";
-import { experience, projects, deploys } from "./utils/info";
+import { experience, deploys } from "./utils/info";
 import Experience from "./components/Experience";
-import Projects from "./components/Projects";
 import Stack from "./components/Stack";
-import Deploys from "./components/Deploys";
+import Carousel from "./components/Carousel";
 
 function App() {
   return (
     <main className="relative w-full h-full  flex justify-center items-center bg-[#18181b]">
-      <div className="w-full min-h-screen max-w-2xl flex flex-col gap-8 px-3 py-3 md:py-10 text-white">
+      <div className="w-full min-h-screen max-w-3xl flex flex-col gap-8 px-3 py-3 md:py-10 text-white">
         <Header />
 
         <div>
@@ -22,14 +21,12 @@ function App() {
 
         <Stack />
 
+
+
         <div className="flex flex-col gap-5">
           <h1 className="text-lg">Mejores Deploys</h1>
 
-          <div className="flex gap-3 pb-3 overflow-x-auto max-w-full max-h-80 h-full">
-            {deploys.map((deploy, index) => (
-              <Deploys key={index} deploy={deploy} />
-            ))}
-          </div>
+          <Carousel deploys={deploys} />
         </div>
 
         <hr className="opacity-5" />
@@ -39,16 +36,6 @@ function App() {
 
           {experience.map((experience, index) => (
             <Experience key={index} experience={experience} />
-          ))}
-        </div>
-
-        <hr className="opacity-5" />
-
-        <div className="flex flex-col gap-5">
-          <h1 className="text-lg">Proyectos nuevos</h1>
-
-          {projects.map((project, index) => (
-            <Projects key={index} project={project} />
           ))}
         </div>
 

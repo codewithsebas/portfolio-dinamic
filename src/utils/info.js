@@ -9,7 +9,7 @@ const experience = [
     bg: "bg-[#ffffff]",
     title: "Desarrollador Web UI",
     description:
-      "Desarrollé y perfeccioné mis habilidades en el diseño y desarrollo de una Landing Page para una clínica, además de participar en la creación interna de una plataforma completa para la gestión de viajes, hoteles, transporte y cirugías. Esta experiencia me permitió combinar diseño y desarrollo en un entorno profesional exigente. Ademas de integrar UI por medio de información de CRMS.",
+      "Actualmente me encargo de diseñar y desarrollar interfaces de usuario modernas y eficientes utilizando React, Next.js y React Native.  Tambien soy el encargado de diseñar en Figma, asegurando que las interfaces creadas no solo sean visualmente atractivas, sino también altamente funcionales y responsivas, optimizadas para ofrecer una experiencia fluida tanto en aplicaciones web como móviles. Mi enfoque está en mejorar continuamente la usabilidad y el rendimiento, colaborando estrechamente con otros equipos para implementar soluciones técnicas que cumplan con los objetivos del negocio.",
     technologie: ["React", "Nextjs", "HTML", "CSS", "JavaScript", "Figma"],
   },
   {
@@ -157,21 +157,35 @@ const projects = [
 
 const deploys = [
   {
-    title: "Perfil clone",
+    title: "Planetas App",
+    description: "Esta aplicación te proporciona información detallada sobre los planetas del sistema solar.",
+    url: "https://planets-tres-astronautas.vercel.app/?search=&sort=asc&page=1",
+    urlRepo: "https://github.com/codewithsebas/planets-tres-astronautas",
+    image: "https://res.cloudinary.com/dovavvnjx/image/upload/v1729740428/WhatsApp_Image_2024-10-23_at_10.26.42_PM_rxtc8w.jpg",
+  },
+  {
+    title: "Gemini clone App",
+    description: "Es una réplica funcional de la aplicación original de Gemini.",
+    url: "https://gemini-clone-app-flax.vercel.app/",
+    urlRepo: "https://github.com/codewithsebas/gemini-clone-app",
+    image: "https://res.cloudinary.com/dovavvnjx/image/upload/v1729739998/WhatsApp_Image_2024-10-23_at_10.19.06_PM_gjunkm.jpg",
+  },
+  {
+    title: "Financy App",
+    description: "Tu dinero, simplificado. Controla tus finanzas con Financy. Fácil, rápido y seguro.",
+    url: "https://financyy-app.vercel.app/",
+    urlRepo: "https://github.com/codewithsebas/financy-app",
+    image: "https://res.cloudinary.com/dovavvnjx/image/upload/v1729739998/WhatsApp_Image_2024-10-23_at_10.17.44_PM_hc9yae.jpg",
+  },
+  {
+    title: "Facebook clone Perfil",
     description: "Clone de un perfil de Facebook, con responsive",
     url: "https://facebook-app-three.vercel.app/",
     urlRepo: "https://github.com/codewithsebas/Facebook-App.git",
     image: "https://res.cloudinary.com/dovavvnjx/image/upload/v1676183351/f_xfboge.png",
   },
   {
-    title: "Gestor de Tareas",
-    description: "Aplicación de tareas con inicio de sesión y registro de usuarios.",
-    url: "https://task-manager-iota-seven.vercel.app/",
-    urlRepo: "https://github.com/codewithsebas/task-manager",
-    image: "https://res.cloudinary.com/dovavvnjx/image/upload/v1724357946/Captura_de_pantalla_2024-08-22_151851_uqxsfe.png",
-  },
-  {
-    title: "Langing",
+    title: "Linguoboost Langing",
     description: "Diseño y desarrollo de esta página web para atraer clientes.",
     url: "https://linguo-boost-web.vercel.app/",
     urlRepo: "https://github.com/codewithsebas/linguo-boost-web",
