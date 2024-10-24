@@ -17,16 +17,7 @@ const Header = () => {
           <h1 className="text-3xl font-bold">Sebastián Giraldo</h1>
 
           <p className="text-base">
-            Frontend Developer & UI/UX Entrepreneur at{" "}
-            <a
-              href="https://www.linkedin.com/company/beautizzi"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-lg text-sky-200 opacity-100 hover:underline"
-            >
-              Beautizzí
-            </a>
-            .
+            FullStack Developer
           </p>
         </div>
 
@@ -48,7 +39,7 @@ const Header = () => {
             href="/download/FullStack Developer.pdf"
             className="opacity-70 text-sm flex items-center gap-2 duration-200 hover:opacity-100"
           >
-            Download Currículum <ArrowDownToLine size={16} />
+            Descargar CV <ArrowDownToLine size={16} />
           </a>
         </div>
       </div>
