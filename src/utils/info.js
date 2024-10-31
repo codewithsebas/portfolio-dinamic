@@ -157,6 +157,13 @@ const projects = [
 
 const deploys = [
   {
+    title: "Build your curriculum ",
+    description: "Esta aplicación te proporciona crear tu curriculum gratis y con diferentes plantillas y diseños",
+    url: "https://build-your-curriculum.vercel.app/dashboard",
+    urlRepo: "https://github.com/codewithsebas/build-your-curriculum",
+    image: "https://res.cloudinary.com/dovavvnjx/image/upload/v1730414874/WhatsApp_Image_2024-10-31_at_5.46.26_PM_i4ayvm.jpg",
+  },
+  {
     title: "Planetas App",
     description: "Esta aplicación te proporciona información detallada sobre los planetas del sistema solar.",
     url: "https://planets-tres-astronautas.vercel.app/?search=&sort=asc&page=1",
