@@ -44,7 +44,7 @@ function App() {
         <footer className="flex flex-col gap-5">
           <h1 className="text-lg">Links Socials</h1>
 
-          <div className="grid grid-flow-row-dense gap-3 grid-cols-3 grid-rows-3 ...">
+          <div className="grid grid-flow-row-dense gap-3 grid-cols-2 sm:grid-cols-4">
             <a
               href="https://www.linkedin.com/in/joabgiraldo/"
               target="_blank"

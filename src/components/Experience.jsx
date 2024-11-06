@@ -3,8 +3,8 @@ import { ArrowUpRight } from "lucide-react";
 
 const Experience = ({ experience }) => {
   return (
-    <div className="flex flex-col-reverse justify-between gap-5 py-2 text-sm sm:flex-row sm:items-start duration-300">
-      <div className="w-36  text-center flex flex-col gap-5 pt-1.5 duration-300">
+    <div className="flex flex-col justify-between gap-5 py-2 text-sm sm:flex-row sm:items-start duration-300">
+      <div className="w-full sm:w-36  text-center flex flex-col items-center sm:items-start gap-5 pt-1.5 duration-300">
         <a
           target="_blank"
           rel="noopener noreferrer"
@@ -19,8 +19,8 @@ const Experience = ({ experience }) => {
             height={85}
           />
         </a>
-        <div className="opacity-70 font-light">
-          {experience.initial} -{" "}
+        <div className="opacity-70 font-light w-full">
+          {experience.initial} -{" "} <br />
           {experience.finished ? experience.finished : "Present"}
         </div>
       </div>

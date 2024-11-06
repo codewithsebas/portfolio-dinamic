@@ -2,24 +2,11 @@ const experience = [
   {
     initial: 2024,
     finished: "Actualmente",
-    web: "https://clinicaespecialistasdelpoblado.com/",
-    url: "https://clinicaespecialistasdelpoblado.com/",
-    logo: "https://res.cloudinary.com/dovavvnjx/image/upload/v1724358311/LOGO-definitivo-ESPECIALISTAS-01-1-1_wd4tsv.png",
-    alt: "Logo Clínica Especialistas del Poblado",
-    bg: "bg-[#ffffff]",
-    title: "Desarrollador Web UI",
-    description:
-      "Actualmente me encargo de diseñar y desarrollar interfaces de usuario modernas y eficientes utilizando React, Next.js y React Native.  Tambien soy el encargado de diseñar en Figma, asegurando que las interfaces creadas no solo sean visualmente atractivas, sino también altamente funcionales y responsivas, optimizadas para ofrecer una experiencia fluida tanto en aplicaciones web como móviles. Mi enfoque está en mejorar continuamente la usabilidad y el rendimiento, colaborando estrechamente con otros equipos para implementar soluciones técnicas que cumplan con los objetivos del negocio.",
-    technologie: ["React", "Nextjs", "HTML", "CSS", "JavaScript", "Figma"],
-  },
-  {
-    initial: 2024,
-    finished: "Actualmente",
     web: "https://www.linkedin.com/company/beautizzi",
     url: "https://www.linkedin.com/company/beautizzi",
-    logo: "https://res.cloudinary.com/dovavvnjx/image/upload/v1713823873/LOGO_ozsohy.png",
+    logo: "https://res.cloudinary.com/dovavvnjx/image/upload/v1730912558/favicon_1_rcsqqd.png",
     alt: "Logo Beautizzí",
-    bg: "bg-[#6425FE]",
+    bg: "bg-[#9F51FF]",
     title: "Desarrollador Fullstack & UI/UX Designer en Beautizzí",
     description:
       "Actualmente, en mi tiempo libre, estoy desarrollando Beautizzí, una plataforma enfocada en aplicaciones móviles utilizando React Native. Beautizzí conecta negocios y clientes dentro del sector de la belleza. Este proyecto personal refleja mi capacidad para innovar en la intersección de diferentes áreas de negocio, demostrando mi compromiso con la mejora continua de la experiencia del usuario.",
@@ -32,6 +19,19 @@ const experience = [
       "MySQL",
       "React Native"
     ],
+  },
+  {
+    initial: "08/05/2024",
+    finished: "08/11/2024",
+    web: "https://clinicaespecialistasdelpoblado.com/",
+    url: "https://clinicaespecialistasdelpoblado.com/",
+    logo: "https://res.cloudinary.com/dovavvnjx/image/upload/v1724358311/LOGO-definitivo-ESPECIALISTAS-01-1-1_wd4tsv.png",
+    alt: "Logo Clínica Especialistas del Poblado",
+    bg: "bg-[#ffffff]",
+    title: "Desarrollador Web UI",
+    description:
+      "Actualmente me encargo de diseñar y desarrollar interfaces de usuario modernas y eficientes utilizando React, Next.js y React Native.  Tambien soy el encargado de diseñar en Figma, asegurando que las interfaces creadas no solo sean visualmente atractivas, sino también altamente funcionales y responsivas, optimizadas para ofrecer una experiencia fluida tanto en aplicaciones web como móviles. Mi enfoque está en mejorar continuamente la usabilidad y el rendimiento, colaborando estrechamente con otros equipos para implementar soluciones técnicas que cumplan con los objetivos del negocio.",
+    technologie: ["React", "Nextjs", "HTML", "CSS", "JavaScript", "Figma"],
   },
   {
     initial: 2023,
@@ -157,7 +157,14 @@ const projects = [
 
 const deploys = [
   {
-    title: "Build your curriculum ",
+    title: "Dragon Ball API",
+    description: "En esta App puedes buscar tu personaje favorito de Dragon Ball y guardar en tus favoritos.",
+    url: "https://dragon-ball-gamma.vercel.app/",
+    urlRepo: "https://github.com/codewithsebas/dragon-ball",
+    image: "https://res.cloudinary.com/dovavvnjx/image/upload/v1730912175/dragon_ba4xds.png",
+  },
+  {
+    title: "Construye tu currículum",
     description: "Esta aplicación te proporciona crear tu curriculum gratis y con diferentes plantillas y diseños",
     url: "https://build-your-curriculum.vercel.app/dashboard",
     urlRepo: "https://github.com/codewithsebas/build-your-curriculum",
