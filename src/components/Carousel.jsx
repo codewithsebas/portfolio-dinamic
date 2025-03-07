@@ -77,7 +77,7 @@ const Carousel = ({ deploys }) => {
                     {deploys.map((deploy, index) => (
                         <div
                             key={index}
-                            className="flex-shrink-0 w-[calc(50%-1rem)] h-full scroll-snap-align-start"
+                            className="flex-shrink-0 w-[calc(100%-1rem)] md:w-[calc(50%-1rem)] h-full scroll-snap-align-start"
                         >
                             <Deploys deploy={deploy} />
                         </div>
