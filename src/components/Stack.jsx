@@ -21,8 +21,8 @@ const Stack = () => {
       <h1 className="text-lg mb-2">Tecnologias</h1>
       
       <div className="relative overflow-hidden">
-        <div className="absolute z-30 left-0 top-0 w-28 h-14 bg-gradient-to-r from-[#18181b] to-transparent"></div>
-        <div className="absolute z-30 right-0 top-0 w-28 h-14 bg-gradient-to-r from-transparent to-[#18181b]"></div>
+        <div className="absolute z-30 left-0 top-0 w-28 h-14 bg-gradient-to-r from-black to-transparent"></div>
+        <div className="absolute z-30 right-0 top-0 w-28 h-14 bg-gradient-to-r from-transparent to-black"></div>
         <div className="flex animate-marquee whitespace-nowrap">
           <div className="flex items-center gap-6">
             <FaHtml5 className="text-3xl text-orange-400 hover:scale-110 transition-transform duration-300" />

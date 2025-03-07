@@ -19,8 +19,8 @@ const Experience = ({ experience }) => {
             height={85}
           />
         </a>
-        <div className="opacity-70 font-light w-full">
-          {experience.initial} -{" "} <br />
+        <div className="opacity-70 font-light w-full text-nowrap">
+          {experience.initial} -{" "}
           {experience.finished ? experience.finished : "Present"}
         </div>
       </div>

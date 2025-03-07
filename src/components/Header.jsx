@@ -14,10 +14,10 @@ const Header = () => {
       </div>
       <div className="w-full sm:ps-6  py-3 flex flex-col justify-between items-center sm:items-start gap-1 mt-2 relative">
         <div className="text-center sm:text-start">
-          <h1 className="text-3xl font-bold">Sebastián Giraldo</h1>
+          <h1 className="text-4xl font-bold">Joab Giraldo</h1>
 
-          <p className="text-base">
-            FullStack Developer
+          <p className="text-xl pt-2">
+            Desarrollador Frontend
           </p>
         </div>
 
@@ -27,20 +27,7 @@ const Header = () => {
           <a className="text-base text-sky-200 opacity-100 hover:underline" href="tel:+57 315 2058712">
             Contactame:  315 2058712
           </a>
-          <p className="text-base text-white opacity-100">Medellín, Antioquia</p>
-        </div>
-
-        <div className="flex justify-end absolute -bottom-7 right-0">
-          <a
-            aria-label="Curriculum_Sebastian_Giraldo"
-            rel="noreferrer"
-            target="_blank"
-            download="FullStack Developer.pdf"
-            href="/download/FullStack Developer.pdf"
-            className="opacity-70 text-sm flex items-center gap-2 duration-200 hover:opacity-100"
-          >
-            Descargar CV <ArrowDownToLine size={16} />
-          </a>
+          <p className="text-base text-white opacity-100">Líbano, Tolima</p>
         </div>
       </div>
     </header>
