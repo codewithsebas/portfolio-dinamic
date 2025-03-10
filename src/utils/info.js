@@ -103,7 +103,7 @@ const deploys = [
   {
     title: "App Task Manager",
     description: "Una aplicación para gestionar y editar tus tareas personales de forma sencilla.",
-    url: "https://project-linktree-clone.vercel.app/",
+    url: "https://task-manager-three-sable-62.vercel.app/",
     urlRepo: "https://github.com/codewithsebas/task-manager",
     image: "https://res.cloudinary.com/dovavvnjx/image/upload/v1741375035/app-task_nv32pj.jpg",
   }
