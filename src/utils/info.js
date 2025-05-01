@@ -1,5 +1,18 @@
 const experience = [
   {
+    initial: 2025,
+    finished: "Actualmente",
+    web: "https://libnb.vercel.app/",
+    url: "https://libnb.vercel.app/",
+    logo: "https://res.cloudinary.com/dovavvnjx/image/upload/v1746073072/LOGO_6_abb8yb.png",
+    alt: "Logo Libnb",
+    bg: "bg-[#FF4F6F]",
+    title: "Front-End Mid Developer",
+    description:
+      "Aplicación integral de productos con funcionalidad de Marketplace. Actualmente desarrollo el frontend, enfocándome en mejorar continuamente la interfaz de usuario (UI) para lograr una experiencia más intuitiva, moderna y atractiva para los usuarios. Trabajo en este proyecto en mis tiempos libres, aplicando buenas prácticas de desarrollo web y diseño centrado en el usuario.",
+    technologie: ["React", "Nextjs", "Tailwindcss", "JavaScript", "Supabase", "Figma"],
+  },
+  {
     initial: 2024,
     finished: 2025,
     web: "https://clinicaespecialistasdelpoblado.com/",
@@ -7,10 +20,10 @@ const experience = [
     logo: "https://res.cloudinary.com/dovavvnjx/image/upload/v1724358311/LOGO-definitivo-ESPECIALISTAS-01-1-1_wd4tsv.png",
     alt: "Logo Clínica Especialistas del Poblado",
     bg: "bg-[#ffffff]",
-    title: "Desarrollador Web UI",
+    title: "Front-End Mid Developer",
     description:
-      "Me encarge de diseñar y desarrollar interfaces de usuario modernas y eficientes utilizando React, Next.js y React Native. También me encarge de diseñar en Figma, asegurándome de que las interfaces creadas no solo sean visualmente atractivas, sino también altamente funcionales y responsivas, optimizadas para ofrecer una experiencia fluida tanto en aplicaciones web como móviles",
-    technologie: ["React", "Nextjs", "HTML", "CSS", "JavaScript", "Figma"],
+      "Me encarge de diseñar y desarrollar interfaces de usuario modernas y eficientes utilizando React y Next. También me encarge de diseñar en Figma, asegurándome de que las interfaces creadas no solo sean visualmente atractivas, sino también altamente funcionales y responsivas, optimizadas para ofrecer una experiencia fluida tanto en aplicaciones web. Estuve trabajando en aplicaciones grandes, de Vuelos, hoteleria, agendamiento de cirugias y citas medicas.",
+    technologie: ["React", "Nextjs", "React Native", "Laravel", "JavaScript", "Figma"],
   },
   {
     initial: 2023,
@@ -20,12 +33,12 @@ const experience = [
     logo: "https://creditos.somosziro.com/assets/img-news/logo-ilustration.svg",
     alt: "Logo Zíro",
     bg: "bg-[#BBFFBF]",
-    title: "Desarrollador Fullstack en Zíro",
+    title: "Front-End Developer",
     description:
-      "Durante mi etapa en Zíro, me especialicé en el desarrollo de soluciones interactivas que optimizaron significativamente la experiencia del usuario y mejoraron la interfaz del producto. Lideré la implementación de integraciones clave para la creación de plantillas de WhatsApp, que impulsaron la eficiencia de la plataforma y permitieron a los usuarios automatizar los procesos de comunicación.",
+      "En Zíro me enfoqué en mejorar la experiencia del usuario mediante soluciones interactivas y una navegación más intuitiva. Lideré la implementación de integraciones clave para crear plantillas de WhatsApp, lo que permitió automatizar procesos de comunicación y mejorar la eficiencia de la plataforma.",
     technologie: ["Angular", "Bootstrap", "PHP", "Laravel", "MySQL", "AWS"],
   },
-  
+
   {
     initial: 2022,
     finished: 2023,
@@ -34,10 +47,10 @@ const experience = [
     logo: "https://res.cloudinary.com/dovavvnjx/image/upload/v1713824840/original_mfbgi4.jpg",
     alt: "Logo OpenBootcamp",
     bg: "bg-[#FFFFFF]",
-    title: "Diseñador UX/UI en OpenBootcamp",
+    title: "Front-End Developer - UI/UX DESIGNER",
     description:
-      "Mi paso por OpenBootcamp fue una experiencia transformadora donde perfeccioné mis habilidades en diseño UX y UI. A través de proyectos prácticos y aprendizaje inmersivo, adquirí valiosos conocimientos sobre cómo diseñar y mejorar experiencias de usuario, fortaleciendo mis capacidades en este campo dinámico.",
-    technologie: ["Figma", "HTML", "CSS"],
+      "Tengo amplia experiencia en trabajo colaborativo, especializándome en desarrollo Frontend y diseño UI/UX. Me centro en diseñar experiencias de usuario intuitivas y optimizadas, trabajando estrechamente con equipos multidisciplinares para asegurar que los productos finales cumplen los objetivos del proyecto y las expectativas de los usuarios.",
+    technologie: ["Figma", "HTML", "CSS", "JavaScript", "PHP", "MySQL"],
   },
 
   {
@@ -48,9 +61,9 @@ const experience = [
     logo: "https://intecomdigital.com/cavifa//pages/img/image1.png",
     alt: "Logo Cavifa",
     bg: "bg-[#FFFFFF]",
-    title: "Desarrollador Fullstack en Innova Ingeniería Integral.",
+    title: "Frontend Developer - UX/UI Designer",
     description:
-      "En Innova Ingeniería Integral, lideré el desarrollo de una plataforma para ayudar a profesionales a gestionar personas con discapacidad. Además, trabajé como diseñador UX/UI y desarrollador fullstack, lo que me permitió asumir un rol de liderazgo mientras diseñaba y desarrollaba soluciones complejas para mejorar la gestión y atención en este sector de la Salud.",
+      "Durante mi tiempo en Innova Ingeniería Integral, asumí un rol de liderazgo como diseñador UX/UI y desarrollador full-stack. Encabecé el desarrollo de una plataforma dirigida a profesionales que gestionan personas con discapacidad, enfocándome en ofrecer una experiencia accesible, intuitiva y eficiente. Además, coordiné al equipo técnico y tomé decisiones clave de diseño e implementación, asegurando que la solución respondiera a las necesidades reales de los usuarios y cumpliera con altos estándares de usabilidad.",
     technologie: ["HTML", "CSS", "JavaScript", "Bootstrap", "PHP", "MySQL"],
   },
 ];
@@ -80,6 +93,13 @@ const projects = [
 
 const deploys = [
   {
+    title: "Libnb | Compra, vende, crece.",
+    description: "Compra, vende, crece.",
+    url: "https://libnb.vercel.app/",
+    urlRepo: "",
+    image: "https://res.cloudinary.com/dovavvnjx/image/upload/v1746075239/WhatsApp_Image_2025-04-30_at_11.53.45_PM_vmo770.jpg",
+  },
+  {
     title: "Gemini clone App",
     description: "Es una réplica funcional de la aplicación original de Gemini.",
     url: "https://gemini-clone-app-flax.vercel.app/",
@@ -95,14 +115,14 @@ const deploys = [
   },
   {
     title: "Clon de Linktree",
-    description: "Una aplicación para gestionar y personalizar tus enlaces sociales de forma sencilla.",
+    description: "Personaliza tus enlaces sociales de forma sencilla.",
     url: "https://project-linktree-clone.vercel.app/",
     urlRepo: "https://github.com/codewithsebas/Project-Linktree-Clone",
     image: "https://res.cloudinary.com/dovavvnjx/image/upload/v1673716764/Captura_de_pantalla_2023-01-14_121548_bbgs0a.png",
   },
   {
     title: "App Task Manager",
-    description: "Una aplicación para gestionar y editar tus tareas personales de forma sencilla.",
+    description: "Crear, editar, eliminar tus tareas de forma sencilla.",
     url: "https://task-manager-three-sable-62.vercel.app/",
     urlRepo: "https://github.com/codewithsebas/task-manager",
     image: "https://res.cloudinary.com/dovavvnjx/image/upload/v1741375035/app-task_nv32pj.jpg",

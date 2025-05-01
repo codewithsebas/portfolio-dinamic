@@ -31,28 +31,6 @@ const Carousel = ({ deploys }) => {
         carouselRef.current.style.cursor = 'grab'; // Cambia el cursor de vuelta a "agarrar"
     };
 
-    // Función para desplazarse hacia la izquierda
-    const scrollLeftButton = () => {
-        if (carouselRef.current) {
-            const cardWidth = carouselRef.current.firstChild.offsetWidth;
-            carouselRef.current.scrollBy({
-                left: -cardWidth,
-                behavior: 'smooth',
-            });
-        }
-    };
-
-    // Función para desplazarse hacia la derecha
-    const scrollRightButton = () => {
-        if (carouselRef.current) {
-            const cardWidth = carouselRef.current.firstChild.offsetWidth;
-            carouselRef.current.scrollBy({
-                left: cardWidth,
-                behavior: 'smooth',
-            });
-        }
-    };
-
     return (
         <div className="relative w-full">
 

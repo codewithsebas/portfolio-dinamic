@@ -12,11 +12,11 @@ body {
 }
 
 ::-webkit-scrollbar-track {
-  background-color: #18181b;
+  background-color: #2563eb;
 }
 
 ::-webkit-scrollbar-thumb {
-  background-color: #222227;
+  background-color: #173f96;
   border-radius: 10px;
 }
 
@@ -25,10 +25,12 @@ body {
   background-size: 200px 200px;
   background-position: 0 0;
 }
+
 @keyframes marquee {
   0% {
     transform: translateX(0%);
   }
+
   100% {
     transform: translateX(-100%);
   }
@@ -47,6 +49,7 @@ body {
   0% {
     margin-left: -580px;
   }
+
   20% {
     margin-left: -600px;
   }

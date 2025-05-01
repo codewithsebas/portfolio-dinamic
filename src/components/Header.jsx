@@ -1,5 +1,3 @@
-import { ArrowDownToLine } from "lucide-react";
-
 const Header = () => {
   return (
     <header className="flex justify-between flex-col items-start sm:flex-row">
@@ -14,20 +12,20 @@ const Header = () => {
       </div>
       <div className="w-full sm:ps-6  py-3 flex flex-col justify-between items-center sm:items-start gap-1 mt-2 relative">
         <div className="text-center sm:text-start">
-          <h1 className="text-4xl font-bold">Joab Giraldo</h1>
+          <h1 className="text-5xl font-bold">Joab Giraldo</h1>
 
-          <p className="text-xl pt-2">
-            Desarrollador Frontend
+          <p className="text-2xl pt-2 font-semibold">
+            Desarrollador Frontend Mid
           </p>
         </div>
 
 
 
         <div className="text-center sm:text-start">
-          <a className="text-base text-sky-200 opacity-100 hover:underline" href="tel:+57 315 2058712">
-            Contactame:  315 2058712
+          <a className="text-lg text-sky-200 opacity-100 hover:underline" href="tel:+57 315 2058712">
+            Contactame:  <span className="text-white font-semibold underline">315 2058712</span>
           </a>
-          <p className="text-base text-white opacity-100">Líbano, Tolima</p>
+          <p className="text-lg text-white opacity-100 font-semibold">Medellín, Antioquia | Colombia</p>
         </div>
       </div>
     </header>
